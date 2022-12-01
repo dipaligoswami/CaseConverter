@@ -1,0 +1,49 @@
+Textarea{
+    border-radius: 5px;
+    padding: 5px;
+}
+Button{
+    margin-right: 10px;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    padding: 5px;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    
+}
+.middle{
+    width: 90%;
+    margin: auto;
+}
+.leftPart{
+    width: 40%;
+
+}
+.leftnavbar{
+    gap: 50px;
+}
+.preview{
+    width: 80%;
+    margin: auto;
+}
+.previewtext{
+    font-size: 1.25rem;
+}
+.btn{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 0px 15px;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+.btn:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+     transform: scale(1.2); 
+}
